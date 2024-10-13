@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <title>travel booking</title>
+
+</head>
+
+<body>
+  <div class="parent">
+    <div class="child">
+      <div class="image">
+        <img src="./flightbooking.png" alt="">
+      </div>
+      <div class="box">
+        <div class="inner-box">
+          <div class="reservation">
+            <h1>FLIGHT RESERVATION</h1>
+            <p>Please make sure that you fill in the name which is in your passport.</p>
+          </div>
+          <div class="space"></div>
+          <form>
+            <div class="name">
+              <h2>Passenger Name</h2>
+            </div>
+            <div class="passenger">
+              <div class="form-group">
+                <input type="text" id="Title" name="Title">
+                <label for="Title">Title</label>
+              </div>
+
+              <div class="form-group">
+                <input type="text" id="FirstName" name="FirsttName">
+                <label for="FirstName">First Name</label>
+
+              </div>
+
+              <div class="form-group">
+                <input type="text" id="lastName" name="lasttName">
+                <label for="LastName">Last Name</label>
+
+              </div>
+            </div>
+            <div class="name">
+              <h2>Date of Birth</h2>
+            </div>
+            <div class="passenger">
+
+              <div class="form-group">
+                <select id="month" name="month" required>
+                  <option value="">Please select a month</option>
+                  <option value="1">January</option>
+                  <option value="2">February</option>
+                  <option value="3">March</option>
+                  <option value="4">April</option>
+                  <option value="5">May</option>
+                  <option value="6">June</option>
+                  <option value="7">July</option>
+                  <option value="8">August</option>
+                  <option value="9">September</option>
+                  <option value="10">October</option>
+                  <option value="11">November</option>
+                  <option value="12">December</option>
+                </select>
+                <label for="month">Month</label>
+              </div>
+
+              <div class="form-group">
+                <select id="day" name="day" required>
+                  <option value="">Please select a day</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                  <option value="26">26</option>
+                  <option value="27">27</option>
+                  <option value="28">28</option>
+                  <option value="29">29</option>
+                  <option value="30">30</option>
+                  <option value="31">31</option>
+                </select>
+                <label for="month">Day</label>
+              </div>
+
+              <div class="form-group">
+                <select id="year" name="year" required>
+                  <option value="">Please select a year</option>
+                  <option value="2024">2024</option>
+                  <option value="2023">2023</option>
+                  <option value="2022">2022</option>
+                  <option value="2021">2021</option>
+                  <option value="2020">2020</option>
+                  <option value="2019">2019</option>
+                  <option value="2018">2018</option>
+                  <option value="2017">2017</option>
+                  <option value="2016">2016</option>
+                  <option value="2015">2015</option>
+                  <option value="2014">2014</option>
+                  <option value="2013">2013</option>
+                  <option value="2012">2012</option>
+                  <option value="2011">2011</option>
+                  <option value="2010">2010</option>
+                  <option value="2009">2009</option>
+                  <option value="2008">2008</option>
+                  <option value="2007">2007</option>
+                  <option value="2006">2006</option>
+                  <option value="2005">2005</option>
+                  <option value="2004">2004</option>
+                  <option value="2003">2003</option>
+                  <option value="2002">2002</option>
+                  <option value="2001">2001</option>
+                  <option value="2000">2000</option>
+                  <option value="1999">1999</option>
+                  <option value="1998">1998</option>
+                  <option value="1997">1997</option>
+
+                </select>
+                <label for="month">Year</label>
+              </div>
+            </div>
+            <div class="space"></div>
+            <div class="reservation">
+              <h1>RESERVATION DETAILS</h1>
+              <div class="name">
+                <h2>Contact Person</h2>
+              </div>
+              <div class="passenger">
+                <div class="form-group">
+                  <input type="text" id="Title" name="Title">
+                  <label for="Title">Title</label>
+                </div>
+
+                <div class="form-group">
+                  <input type="text" id="FirstName" name="FirsttName">
+                  <label for="FirstName">First Name</label>
+
+                </div>
+
+                <div class="form-group">
+                  <input type="text" id="lastName" name="lasttName">
+                  <label for="LastName">Last Name</label>
+
+                </div>
+              </div>
+
+              <div class="contact-box">
+                <div class="left">
+                  <div class="name">
+                    <h2>Email</h2>
+                  </div>
+                  <div class="passenger">
+                    <div class="email-group">
+                      <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+                      <label for="email">Enter your email</label>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="right">
+                  <div class="name">
+                    <h2>Phone Number</h2>
+                  </div>
+                  <div class="passenger">
+                    <div class="email-group">
+                      <input type="text" id="PhoneNumber" name="PhoneNumber" placeholder="+91-9123456890" required>
+                      <label for="email">Enter your email</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="name">
+                <h2>Address</h2>
+              </div>
+              <div class="passenger">
+                <div class="address-group">
+                  <input type="text" id="address" name="address">
+                  <label for="Title">Street Address Line 1</label>
+
+                  <input type="text" id="address" name="address">
+                  <label for="Title">Street Address Line 2</label>
+
+                </div>
+              </div>
+
+              <div class="city-box">
+                <div class="city">
+                  <div class="passenger">
+                    <div class="city-group">
+                      <select id="City" name="City">
+                        <option value="">Select City</option>
+                        <option value="VGA">Vijayawada</option>
+                        <option value="VTZ">Visakhapatnam</option>
+                        <option value="TIR">Tirupati</option>
+                        <option value="GAU">Guwahati</option>
+                        <option value="DIB">Dibrugarh</option>
+                        <option value="IXI">Lilabari</option>
+                        <option value="TEZ">Tezpur</option>
+                        <option value="JRH">Jorhat</option>
+                        <option value="ROW">Silchar</option>
+                        <option value="RPR">Raipur</option>
+                        <option value="AMD">Ahmedabad</option>
+                        <option value="BDQ">Vadodara</option>
+                        <option value="RAJ">Rajkot</option>
+                        <option value="KSH">Keshod</option>
+                        <option value="JGA">Jamnagar</option>
+                        <option value="STV">Surat</option>
+                        <option value="BHU">Bhavnagar</option>
+                        <option value="DHM">Kangra</option>
+                        <option value="DHM">Kangra</option>
+                        <option value="SLV">Shimla</option>
+                        <option value="KUU">Kullu</option>
+                        <option value="BLR">Bengaluru</option>
+                        <option value="IXE">Mangalore</option>
+                        <option value="HBX">Hubli</option>
+                        <option value="MYQ">Mysuru</option>
+                        <option value="UGD">Belagavi</option>
+                        <option value="BHO">Bhopal</option>
+                        <option value="IDR">Indore</option>
+                        <option value="JLR">Jabalpur</option>
+                        <option value="GWL">Gwalior</option>
+                        <option value="BOM">Mumbai</option>
+                        <option value="PNQ">Pune</option>
+                        <option value="NAG">Nagpur</option>
+                        <option value="GOI">Goa (Dabolim)</option>
+                        <option value="IXU">Aurangabad</option>
+                        <option value="NDC">Nanded</option>
+                        <option value="JAI">Jaipur</option>
+                        <option value="UDR">Udaipur</option>
+                        <option value="Jodhpur">Jodhpur</option>
+                        <option value="MAA">Chennai</option>
+                        <option value="TRZ">Tiruchirappalli</option>
+                        <option value="TRV">Madurai</option>
+                        <option value="IXM">Coimbatore</option>
+                        <option value="VCB">Vellore (via Tirupati)</option>
+                      </select>
+                      <label for="city">City </label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="state">
+                  <div class="passenger">
+                    <div class="state-group">
+                      <select id="state" name="state">
+                        <option value="">Select state</option>
+                        <option value="AP">Andhra Pradesh</option>
+                        <option value="AR">Arunachal Pradesh</option>
+                        <option value="AS">Assam</option>
+                        <option value="BR">Bihar</option>
+                        <option value="CT">Chhattisgarh</option>
+                        <option value="GA">Goa</option>
+                        <option value="GJ">Gujarat</option>
+                        <option value="HR">Haryana</option>
+                        <option value="HP">Himachal Pradesh</option>
+                        <option value="JK">Jammu and Kashmir</option>
+                        <option value="JH">Jharkhand</option>
+                        <option value="KA">Karnataka</option>
+                        <option value="KL">Kerala</option>
+                        <option value="MP">Madhya Pradesh</option>
+                        <option value="MH">Maharashtra</option>
+                        <option value="MN">Manipur</option>
+                        <option value="ML">Meghalaya</option>
+                        <option value="MZ">Mizoram</option>
+                        <option value="NL">Nagaland</option>
+                        <option value="OR">Odisha</option>
+                        <option value="PB">Punjab</option>
+                        <option value="RJ">Rajasthan</option>
+                        <option value="SK">Sikkim</option>
+                        <option value="TN">Tamil Nadu</option>
+                        <option value="TG">Telangana</option>
+                        <option value="TR">Tripura</option>
+                        <option value="UP">Uttar Pradesh</option>
+                        <option value="UT">Uttarakhand</option>
+                        <option value="WB">West Bengal</option>
+                        <option value="AN">Andaman and Nicobar Islands</option>
+                        <option value="CH">Chandigarh</option>
+                        <option value="DN">Dadra and Nagar Haveli and Daman and Diu</option>
+                        <option value="LD">Lakshadweep</option>
+                        <option value="DL">Delhi</option>
+                        <option value="PY">Puducherry</option>
+                      </select>
+                      <label for="state">state</label>
+
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="passenger">
+                <div class="postal-group">
+                  <input type="text" id="text" name="zip_code">
+                  <label for="state">Postal/Zip Code</label>
+                </div>
+              </div>
+
+              <div class="id-proof">
+                <div class="adhaar-card">
+                  <div class="name">
+                    <h2>Aadhar Number</h2>
+                  </div>
+                  <div class="passenger">
+                    <div class="adhaar-group">
+                      <input type="text" id="txtAadhar" name="Aadhaar Number">
+
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="pan-card">
+                  <div class="name">
+                    <h2>Passport/ID Number</h2>
+                  </div>
+                  <div class="passenger">
+                    <div class="pan-group">
+                      <input type="text" id="PanNumber" name="PanNumber">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="name">
+                <h2>International or Domestic flight?</h2>
+              </div>
+              <div class="flight-group">
+                <div>
+                  <input type="radio" id="International" name="flight" value="International" checked />
+                  <label for="International">International</label>
+                </div>
+                <div>
+                  <input type="radio" id="Domestic" name="flight" value="Domestic" checked />
+                  <label for="Domestic">Domestic</label>
+                </div>
+              </div>
+
+              <div class="name">
+                <h2>Departure Date and Time</h2>
+              </div>
+              <div class="date-time">
+                <div class="left-date">
+                  <input type="date" name="begin" placeholder="dd-mm-yyyy" value="" min="1997-01-01" max="2030-12-31">
+
+
+                </div>
+                <div class="right-time">
+
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+
+
+    </form>
+
+
+
+
+
+
+  </div>
+  </div>
+
+
+  </div>
+
+  </div>
+</body>
+
+</html>

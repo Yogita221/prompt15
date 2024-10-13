@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html,
+body{
+    width: 100%;
+    height: 500vh;
+    font-family: "Inter", sans-serif;
+    
+} 
+.parent{
+    height: 100%;
+    width: 100vw;
+    background-image: linear-gradient(to right top, #7c9fd1, #93b0da, #aac2e3, #c1d3ec, #d9e5f5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.child{
+    width: 70vw;
+    height: 100%;
+    /* background-color: #fcb8b8; */
+   background-color:#ffffff ;
+   
+}
+img{
+    width: 70vw;
+    height: 260px;
+  
+}
+.box{
+    width: 70vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-box{
+   width: 60vw;
+   height: 100%;
+   background-color: #ffffff;
+}
+.reservation{
+    margin-top: 20px;
+    
+}
+h1{
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-size: 2.2vw;
+    color: #161921;
+}
+p{
+    font-size: 1.2vw;
+    word-spacing: 1px;
+    color: #08518e;
+    padding-top: 5px;
+    
+}
+.space{
+    height: 30px;
+   
+ }
+ .name{
+    margin-top: 20px;
+ }
+.name h2{
+    font-weight: 400;
+    font-size: 1.3vw;
+    
+}
+.passenger{
+    display:flex;
+    justify-content: space-between;
+        
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+
+input{
+    margin-top: 10px;
+    width: 17vw;
+    padding: 9px;  
+    border: 1px solid #c3bdbd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+label{
+    font-size: 0.9vw;
+    color: rgb(76, 75, 75);
+}
+
+select{
+    margin-top: 10px;
+    width: 17vw;
+    padding: 6px;  
+    border: 1px solid #c3bdbd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.contact-box{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.email-group{
+    display: flex;
+    flex-direction: column;
+}
+.email-group input{
+    margin-top: 10px;
+    width: 28vw;
+    padding: 6px;  
+
+    border: 1px solid #c3bdbd;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+.address-group{
+    display: flex;
+    flex-direction: column;
+}
+.address-group input{
+    width: 60vw;
+    margin-top: 13px;
+    padding: 9px;  
+    border: 1px solid #c3bdbd;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+.city-box{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.city-group{
+    display: flex;
+    flex-direction: column;
+}
+.state-group{
+    display: flex;
+    flex-direction: column;
+}
+.city-group select{
+    width: 28vw;
+}
+.state-group select{
+    width: 28vw;
+}
+.postal-group{
+    display: flex;
+    flex-direction: column;
+}
+.postal-group input{
+    width: 60vw;
+
+}
+.id-proof{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.adhaar-group input{
+     width: 27vw;
+}
+.pan-group input{
+   width: 27vw;
+}
+
+.flight-group{
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+.flight-group label {
+    font-size: 1.3vw;
+}
+.flight-group input {
+    width: 5vw;
+  }
+
+
+
+
+
+
+
+
+
+
+
