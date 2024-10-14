@@ -353,9 +353,9 @@
                 </div>
               </div>
 
-              <div class="name">
-                <h2>International or Domestic flight?</h2>
-              </div>
+              <div class="name"><h2>International or Domestic flight?</h2> </div>
+                
+             
               <div class="flight-group">
                 <div>
                   <input type="radio" id="International" name="flight" value="International" checked />
@@ -377,11 +377,164 @@
 
                 </div>
                 <div class="right-time">
+                  <input type="time" id="appt" name="appt" min="09:00" max="18:00" required />
+                </div>
+                
+              </div>
+            
+              <div class="departuring">
+                <div class="departuring-left">
+                  <div class="name"><h2>Departuring from</h2></div>
+                  <div class="passenger">
+                    <div class="depaturing-group">
+                      <select id="City" name="City">
+                        <option value="">Select City</option>
+                        <option value="VGA">Vijayawada</option>
+                        <option value="VTZ">Visakhapatnam</option>
+                        <option value="TIR">Tirupati</option>
+                        <option value="GAU">Guwahati</option>
+                        <option value="DIB">Dibrugarh</option>
+                        <option value="IXI">Lilabari</option>
+                        <option value="TEZ">Tezpur</option>
+                        <option value="JRH">Jorhat</option>
+                        <option value="ROW">Silchar</option>
+                        <option value="RPR">Raipur</option>
+                        <option value="AMD">Ahmedabad</option>
+                        <option value="BDQ">Vadodara</option>
+                        <option value="RAJ">Rajkot</option>
+                        <option value="KSH">Keshod</option>
+                        <option value="JGA">Jamnagar</option>
+                        <option value="STV">Surat</option>
+                        <option value="BHU">Bhavnagar</option>
+                        <option value="DHM">Kangra</option>
+                        <option value="DHM">Kangra</option>
+                        <option value="SLV">Shimla</option>
+                        <option value="KUU">Kullu</option>
+                        <option value="BLR">Bengaluru</option>
+                        <option value="IXE">Mangalore</option>
+                        <option value="HBX">Hubli</option>
+                        <option value="MYQ">Mysuru</option>
+                        <option value="UGD">Belagavi</option>
+                        <option value="BHO">Bhopal</option>
+                        <option value="IDR">Indore</option>
+                        <option value="JLR">Jabalpur</option>
+                        <option value="GWL">Gwalior</option>
+                        <option value="BOM">Mumbai</option>
+                        <option value="PNQ">Pune</option>
+                        <option value="NAG">Nagpur</option>
+                        <option value="GOI">Goa (Dabolim)</option>
+                        <option value="IXU">Aurangabad</option>
+                        <option value="NDC">Nanded</option>
+                        <option value="JAI">Jaipur</option>
+                        <option value="UDR">Udaipur</option>
+                        <option value="Jodhpur">Jodhpur</option>
+                        <option value="MAA">Chennai</option>
+                        <option value="TRZ">Tiruchirappalli</option>
+                        <option value="TRV">Madurai</option>
+                        <option value="IXM">Coimbatore</option>
+                        <option value="VCB">Vellore (via Tirupati)</option>
+                      </select>
+                      <label for="city">City </label>   
+                  </div>
+                  
+
+
+                  </div>
+                </div>
+                <div class="departuring-right">
+                  <div class="name"><h2>Destination</h2></div>
+                  <div class="passenger">
+                    <div class="depaturing-group">
+                      <select id="City" name="City">
+                        <option value="">Select City</option>
+                        <option value="VGA">Vijayawada</option>
+                        <option value="VTZ">Visakhapatnam</option>
+                        <option value="TIR">Tirupati</option>
+                        <option value="GAU">Guwahati</option>
+                        <option value="DIB">Dibrugarh</option>
+                        <option value="IXI">Lilabari</option>
+                        <option value="TEZ">Tezpur</option>
+                        <option value="JRH">Jorhat</option>
+                        <option value="ROW">Silchar</option>
+                        <option value="RPR">Raipur</option>
+                        <option value="AMD">Ahmedabad</option>
+                        <option value="BDQ">Vadodara</option>
+                        <option value="RAJ">Rajkot</option>
+                        <option value="KSH">Keshod</option>
+                        <option value="JGA">Jamnagar</option>
+                        <option value="STV">Surat</option>
+                        <option value="BHU">Bhavnagar</option>
+                        <option value="DHM">Kangra</option>
+                        <option value="DHM">Kangra</option>
+                        <option value="SLV">Shimla</option>
+                        <option value="KUU">Kullu</option>
+                        <option value="BLR">Bengaluru</option>
+                        <option value="IXE">Mangalore</option>
+                        <option value="HBX">Hubli</option>
+                        <option value="MYQ">Mysuru</option>
+                        <option value="UGD">Belagavi</option>
+                        <option value="BHO">Bhopal</option>
+                        <option value="IDR">Indore</option>
+                        <option value="JLR">Jabalpur</option>
+                        <option value="GWL">Gwalior</option>
+                        <option value="BOM">Mumbai</option>
+                        <option value="PNQ">Pune</option>
+                        <option value="NAG">Nagpur</option>
+                        <option value="GOI">Goa (Dabolim)</option>
+                        <option value="IXU">Aurangabad</option>
+                        <option value="NDC">Nanded</option>
+                        <option value="JAI">Jaipur</option>
+                        <option value="UDR">Udaipur</option>
+                        <option value="Jodhpur">Jodhpur</option>
+                        <option value="MAA">Chennai</option>
+                        <option value="TRZ">Tiruchirappalli</option>
+                        <option value="TRV">Madurai</option>
+                        <option value="IXM">Coimbatore</option>
+                        <option value="VCB">Vellore (via Tirupati)</option>
+                      </select>
+                      <label for="city">City </label>
+                  </div>
+                  
+
+                  </div>
+                </div>
+              </div>
+
+             <div class="airline">
+              <div class="airline-left">
+                <div class="name"><h2>Airline</h2></div>
+                <div class="passenger">
+                  <div class="airline-group">
+                    <select id="Airline" name="Airline">
+                      <option value="">Please select</option>
+                      <option value="">Airline 1</option>
+                      <option value="">Airline 2</option>
+                      <option value="">Airline 3</option>
+                      <option value="">Airline 4</option> 
+                      </select>
+                  </div>
+
+                </div>
+              </div>
+              <div class="airline-right">
+                <div class="name"><h2>fare</h2></div>
+                <div class="passenger">
+                  <div class="airline-group">
+                    <select id="Fare" name="Fare">
+                      <option value="">Please select</option>
+                      <option value="">One Way</option>
+                      <option value="">Round-Trip</option>
+                   </select>
+                  </div>
 
                 </div>
               </div>
 
-
+             </div>
+             <div class="submit">
+              <button type="button">Submit</button>
+             </div>
+            
 
 
 

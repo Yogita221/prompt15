@@ -7,12 +7,12 @@
 html,
 body{
     width: 100%;
-    height: 500vh;
+    height: 100%;
     font-family: "Inter", sans-serif;
     
 } 
 .parent{
-    height: 100%;
+    height: 260vh;
     width: 100vw;
     background-image: linear-gradient(to right top, #7c9fd1, #93b0da, #aac2e3, #c1d3ec, #d9e5f5);
     display: flex;
@@ -185,9 +185,66 @@ select{
 .flight-group label {
     font-size: 1.3vw;
 }
+
 .flight-group input {
     width: 5vw;
-  }
+}
+
+.date-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-date input, .right-time input{
+    width: 27vw;
+}
+
+.departuring{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.depaturing-group{
+    display: flex;
+    flex-direction: column; 
+}
+
+.depaturing-group select{
+    width: 27vw;
+}
+
+.airline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.airline-group select{
+    width: 27vw;
+}
+
+.submit{
+   margin-top: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.submit button{
+    border: none;
+    font-size: 1.5vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffffff;
+    padding: 15px 60px 15px 60px;
+    background-color: #2e69ff;
+    border-radius: 10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+button:hover{
+    background-color: rgb(7, 24, 72);
+}
+
+
 
 
 
